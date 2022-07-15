@@ -1,0 +1,6 @@
+- name: Rebuild the Armbian for Amlogic s9xxx
+  uses: ophub/amlogic-s9xxx-armbian@main
+  with:
+    build_target: armbian
+    armbian_path: build/output/images/*.img
+    armbian_soc: s905d
